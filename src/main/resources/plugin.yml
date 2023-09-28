@@ -1,0 +1,9 @@
+name: CommandSTAP
+version: '${version}'
+main: marumasa.command_stap.CommandSTAP
+api-version: '1.16'
+
+commands:
+  stap:
+    description: チャットに「STAPコマンドは、あります！」と表示する。
+    usage: /<command>
